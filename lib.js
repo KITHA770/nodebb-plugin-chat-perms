@@ -2,7 +2,7 @@ const User = require.main.require('./src/user');
 const Groups = require.main.require('./src/groups');
 const moment = require('moment');
 
-const ADMIN_UIDS = [1]; // ניתן להגדיר כאן את מזהה המשתמש שיוכל לצפות בצ'אטים של אחרים
+const ADMIN_UIDS = [1]; // 1
 const ALLOW_CHAT_GROUP = 'allowChat'; // ניתן להגדיר כאן את שם הקבוצה שיהיו מותרים להשתמש בצ'אט בלי תנאים
 const DENY_CHAT_GROUP = 'denyChat'; // ניתן להגדיר כאן את שם הקבוצה שיהיו אסורים להשתמש בצ'אט בלי תנאים
 const MIN_REPUTATION = 10; // ניתן להגדיר כאן את המוניטין שצריך לצבור כדי להשתשמש בצא'ט
